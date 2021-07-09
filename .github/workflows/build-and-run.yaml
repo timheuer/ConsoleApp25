@@ -46,3 +46,7 @@ jobs:
 
     - name: Quick run
       run: dotnet run
+
+    - name: Test
+      working-directory: TestProject1
+      run: dotnet Test
