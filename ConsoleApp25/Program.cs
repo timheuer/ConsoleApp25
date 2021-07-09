@@ -7,6 +7,7 @@ namespace ConsoleApp25
         static void Main(string[] args)
         {
             Console.WriteLine(Resources.SomeString);
+            Console.WriteLine(Resources.AnotherString);
         }
     }
 }
